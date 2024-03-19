@@ -4,10 +4,10 @@ The Connector for SAP Commerce Cloud (formerly Hybris) enables customers to impl
 
 ## Release Compatibility
 This release is compatible with:
-- SAP Commerce: B2C Accelerator of SAP Commerce Cloud 2211. It is advised to install the latest patch version of SAP Commerce Cloud.
+- SAP Commerce: B2C Accelerator of SAP Commerce Cloud 2105. It is advised to install the latest patch version of SAP Commerce Cloud.
 - SAP Commerce REST API (OCC).
 - Spartacus 4.2.
-- Java 17.
+- Java 11.
 - Checkout.com Java SDK version 3.
 
 It is advised to use the latest release of this Connector available in GitHub.
@@ -69,7 +69,7 @@ Install the Connector using recipes. Run the following commands:
 - Start a commerce suite instance
 ```HYBRIS_HOME/installer$ ./install.sh -r [RECIPE_NAME] start```
   
-## Installing on [SAP Commerce Cloud](https://help.sap.com/viewer/product/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/v2211/en-US)
+## Installing on [SAP Commerce Cloud](https://help.sap.com/viewer/product/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/v2105/en-US)
 Follow the instructions below to install and deploy the Connector on SAP Commerce Cloud. The sample manifest.json included in the Connector serves as guide for the installation. Adapt your  manifest.json file to include Checkout.com extensions.  
 The public, private and shared keys are included as properties in the manifest as placeholder. Add your keys as properties in the SAP Commerce Cloud environments.  
 
